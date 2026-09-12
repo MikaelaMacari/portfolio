@@ -1,0 +1,12 @@
+# Normalise line endings: LF in the repo, native in the working tree.
+* text=auto eol=lf
+
+*.ico binary
+*.png binary
+*.jpg binary
+*.webp binary
+*.woff binary
+*.woff2 binary
+
+# Generated — collapse in diffs
+pnpm-lock.yaml linguist-generated=true -diff

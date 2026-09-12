@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #10161c;
+  --color-ink-2: #161e27;
+  --color-ink-3: #1c2530;
+
+  --color-paper: #ede7d6;
+  --color-paper-dim: #c9c3b2;
+  --color-muted: #8b9099;
+
+  --color-amber: #e8a33d;
+  --color-amber-dim: #a97a34;
+  --color-teal: #4fb6a8;
+
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --radius: 10px;
+}
