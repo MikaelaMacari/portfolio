@@ -1,0 +1,21 @@
+{
+  "name": "@repo/types",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Shared domain and API contract types. Hand-written first cut; regenerated from the NestJS OpenAPI spec later.",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "types": "./src/index.ts",
+  "scripts": {
+    "lint": "eslint .",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "eslint": "catalog:",
+    "typescript": "catalog:"
+  }
+}

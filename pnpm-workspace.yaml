@@ -1,0 +1,38 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+# Native postinstall scripts we explicitly trust (pnpm 11 blocks the rest).
+onlyBuiltDependencies:
+  - unrs-resolver
+
+catalog:
+  # Pinned to 5.9 (not 7.0): typescript-eslint hard-refuses TS >= 7 today.
+  # See https://github.com/typescript-eslint/typescript-eslint/issues/10940
+  typescript: ~5.9.3
+  "@types/node": ^26.5.0
+
+  react: 19.2.8
+  react-dom: 19.2.8
+  "@types/react": ^19.2.18
+  "@types/react-dom": ^19.2.7
+
+  next: 16.3.4
+
+  tailwindcss: ^4.3.3
+  "@tailwindcss/postcss": ^4.3.3
+
+  turbo: ^2.10.12
+
+  # ESLint pinned to 9 (not 10): eslint-plugin-react (via eslint-config-next)
+  # crashes on the ESLint 10 context API.
+  eslint: ^9.39.5
+  eslint-config-next: 16.3.4
+  "@eslint/js": ^9.39.5
+  globals: ^17.12.0
+  typescript-eslint: ^8.70.0
+  eslint-config-prettier: ^10.1.8
+  eslint-plugin-react-hooks: ^7.1.1
+  eslint-plugin-turbo: ^2.10.12
+  "@next/eslint-plugin-next": ^16.3.4
+  prettier: ^3.9.6

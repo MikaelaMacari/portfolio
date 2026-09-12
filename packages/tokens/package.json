@@ -1,0 +1,18 @@
+{
+  "name": "@repo/tokens",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Design tokens ported from the portfolio mockups. Ships plain CSS custom properties, a Tailwind v4 theme, and SCSS variables.",
+  "exports": {
+    "./tokens.css": "./src/tokens.css",
+    "./theme.css": "./src/theme.css",
+    "./tokens.scss": "./src/tokens.scss"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "tailwindcss": "catalog:"
+  }
+}

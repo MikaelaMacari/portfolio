@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Mihaela Macari — frontend developer portfolio, built as a Turborepo monorepo.",
+  "packageManager": "pnpm@11.21.0",
+  "engines": {
+    "node": ">=22",
+    "pnpm": ">=11"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check",
+    "test": "turbo run test",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,mjs,cjs,json,css,md}\" --cache",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,mjs,cjs,json,css,md}\" --cache"
+  },
+  "devDependencies": {
+    "prettier": "catalog:",
+    "turbo": "catalog:",
+    "typescript": "catalog:"
+  }
+}
