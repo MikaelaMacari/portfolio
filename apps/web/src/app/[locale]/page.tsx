@@ -1,5 +1,6 @@
-import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   description:
