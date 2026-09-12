@@ -13,6 +13,7 @@
     "@repo/tokens": "workspace:*",
     "@repo/types": "workspace:*",
     "next": "catalog:",
+    "next-intl": "catalog:",
     "react": "catalog:",
     "react-dom": "catalog:"
   },

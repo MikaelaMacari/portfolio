@@ -18,6 +18,7 @@ catalog:
   "@types/react-dom": ^19.2.7
 
   next: 16.3.4
+  next-intl: ^4.14.4
 
   tailwindcss: ^4.3.3
   "@tailwindcss/postcss": ^4.3.3
@@ -36,3 +37,7 @@ catalog:
   eslint-plugin-turbo: ^2.10.12
   "@next/eslint-plugin-next": ^16.3.4
   prettier: ^3.9.6
+
+allowBuilds:
+  '@parcel/watcher': true
+  '@swc/core': true
