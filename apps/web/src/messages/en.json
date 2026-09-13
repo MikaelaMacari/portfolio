@@ -2,5 +2,23 @@
   "Home": {
     "title": "Mihaela Macari",
     "subtitle": "Frontend developer, four years' experience."
+  },
+  "Navbar": {
+    "links": {
+      "projects": "Projects",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "tour": "Take a tour",
+    "cv": "CV",
+    "cvDownloadLabel": "Download CV as PDF",
+    "languageLabel": "Choose language",
+    "locales": {
+      "en": "English",
+      "ro": "Romanian",
+      "ru": "Russian"
+    },
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
   }
 }

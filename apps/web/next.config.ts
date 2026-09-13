@@ -4,6 +4,8 @@ import type { NextConfig } from "next";
 
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
-const nextConfig: NextConfig = {};
+const nextConfig: NextConfig = {
+  transpilePackages: ["@repo/tokens"],
+};
 
 export default withNextIntl(nextConfig);

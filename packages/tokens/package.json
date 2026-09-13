@@ -7,12 +7,14 @@
   "exports": {
     "./tokens.css": "./src/tokens.css",
     "./theme.css": "./src/theme.css",
-    "./tokens.scss": "./src/tokens.scss"
+    "./tokens.scss": "./src/tokens.scss",
+    "./fonts": "./src/fonts.ts"
   },
   "files": [
     "src"
   ],
   "dependencies": {
+    "next": "catalog:",
     "tailwindcss": "catalog:"
   }
 }

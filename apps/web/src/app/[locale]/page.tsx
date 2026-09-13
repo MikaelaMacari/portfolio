@@ -15,7 +15,7 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-1 flex-col justify-center gap-6 px-6 py-24">
       <p className="font-mono text-sm text-amber">portfolio / apps / web</p>
-      <h1 className="font-display text-4xl font-bold tracking-tight text-paper sm:text-5xl">
+      <h1 className="font-display text-4xl font-semibold tracking-tight text-paper sm:text-5xl">
         {t("title")}
       </h1>
       <p className="max-w-prose text-lg text-paper-dim">

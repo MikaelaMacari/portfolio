@@ -2,5 +2,23 @@
   "Home": {
     "title": "Mihaela Macari",
     "subtitle": "Dezvoltator frontend, patru ani de experiență."
+  },
+  "Navbar": {
+    "links": {
+      "projects": "Proiecte",
+      "about": "Despre",
+      "contact": "Contact"
+    },
+    "tour": "Ghid rapid",
+    "cv": "CV",
+    "cvDownloadLabel": "Descarcă CV în format PDF",
+    "languageLabel": "Alege limba",
+    "locales": {
+      "en": "Engleză",
+      "ro": "Română",
+      "ru": "Rusă"
+    },
+    "menuOpen": "Deschide meniul",
+    "menuClose": "Închide meniul"
   }
 }
