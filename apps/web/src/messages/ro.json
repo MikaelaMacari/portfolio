@@ -21,6 +21,27 @@
       "backgroundValue": "Inginerie Biomedicală"
     }
   },
+  "About": {
+    "num": "02 / PARCURS",
+    "title": "Despre Mine",
+    "p1": "Am început în inginerie biomedicală — un master petrecut gândindu-mă la precizie, toleranțe și instrumente. M-am mutat în dezvoltare frontend pentru că am vrut să construiesc eu însămi instrumentele.",
+    "p2": "Din 2022 lucrez în platforme SaaS, B2B și platforme bazate pe date, în Angular și React. Mă concentrez în principal pe dezvoltare Angular pe o platformă de date la scară largă folosită de ONG-uri și consultanți din întreaga lume, alături de un rol React mai mic, în desfășurare, pentru instrumente de monitorizare live în operațiuni aviatice.",
+    "p3": "Bazată în Chișinău, Moldova — cetățean UE, eligibilă integral pentru muncă remote în UE, fără sponsorizare.",
+    "rows": {
+      "focus": "Focus Actual",
+      "focusValue": "Angular & React, interfețe cu date complexe",
+      "experience": "Experiență",
+      "experienceValue": "4+ ani",
+      "education": "Studii",
+      "educationValue": "Master Inginerie Biomedicală",
+      "location": "Locație",
+      "locationValue": "Chișinău, Moldova",
+      "eligibility": "Eligibilitate",
+      "eligibilityValue": "Remote UE — fără sponsorizare",
+      "languages": "Limbi",
+      "languagesValue": "Română, Rusă, Engleză"
+    }
+  },
   "Navbar": {
     "links": {
       "projects": "Proiecte",

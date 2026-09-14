@@ -21,6 +21,27 @@
       "backgroundValue": "Biomedical Eng."
     }
   },
+  "About": {
+    "num": "02 / BACKGROUND",
+    "title": "About",
+    "p1": "I started in biomedical engineering — a master's degree spent thinking about precision, tolerances and instruments. I moved into frontend development because I wanted to build the instruments myself.",
+    "p2": "Since 2022 I've worked across SaaS, B2B and data-driven platforms in Angular and React. My primary focus has been Angular development on a large-scale data platform used by NGOs and consultants worldwide, alongside a smaller, ongoing React role building live monitoring tools for aviation operations.",
+    "p3": "Based in Chișinău, Moldova — EU citizen, fully eligible to work remotely across the EU without sponsorship.",
+    "rows": {
+      "focus": "Current Focus",
+      "focusValue": "Angular & React, data-heavy UIs",
+      "experience": "Experience",
+      "experienceValue": "4+ years",
+      "education": "Education",
+      "educationValue": "MSc Biomedical Engineering",
+      "location": "Location",
+      "locationValue": "Chișinău, Moldova",
+      "eligibility": "Eligibility",
+      "eligibilityValue": "EU remote — no sponsorship needed",
+      "languages": "Languages",
+      "languagesValue": "Romanian, Russian, English"
+    }
+  },
   "Navbar": {
     "links": {
       "projects": "Projects",
