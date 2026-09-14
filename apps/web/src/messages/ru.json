@@ -51,6 +51,10 @@
     "cv": "Скачать резюме",
     "cvLabel": "Скачать резюме в формате PDF"
   },
+  "Footer": {
+    "copyright": "© {year} Mihaela Macari",
+    "built": "Создано с мышлением Angular и React, реализовано на Next.js"
+  },
   "Navbar": {
     "links": {
       "projects": "Проекты",

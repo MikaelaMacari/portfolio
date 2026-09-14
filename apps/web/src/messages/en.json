@@ -51,6 +51,10 @@
     "cv": "Download CV",
     "cvLabel": "Download CV as PDF"
   },
+  "Footer": {
+    "copyright": "© {year} Mihaela Macari",
+    "built": "Built with Angular & React thinking, shipped with Next.js"
+  },
   "Navbar": {
     "links": {
       "projects": "Projects",
