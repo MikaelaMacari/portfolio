@@ -1,7 +1,25 @@
 {
-  "Home": {
-    "title": "Mihaela Macari",
-    "subtitle": "Frontend developer, four years' experience."
+  "Hero": {
+    "status": "AVAILABLE — REMOTE / EU",
+    "location": "CHIȘINĂU, MD · 47.0105° N, 28.8638° E",
+    "clockLabel": "LOCAL",
+    "eyebrow": "Frontend Developer — Angular & React",
+    "role": "Frontend developer specializing in <b>Angular and React</b>. My main focus is Angular development on a global platform used by NGOs and consultants worldwide — alongside a smaller, ongoing React role building aircraft-operations tooling for an aviation SaaS company.",
+    "copy": "Originally trained as a biomedical engineer — a background that led me toward frontend work built around live, high-stakes data rather than static content.",
+    "ctaProjects": "View Projects",
+    "ctaContact": "Get in Touch",
+    "panel": {
+      "title": "Stack Readout",
+      "version": "v1.0",
+      "experience": "Experience",
+      "experienceValue": "4+ yrs",
+      "eligibility": "Work Eligibility",
+      "eligibilityValue": "EU — no sponsorship",
+      "languages": "Languages",
+      "languagesValue": "RO · RU · EN",
+      "background": "Background",
+      "backgroundValue": "Biomedical Eng."
+    }
   },
   "Navbar": {
     "links": {

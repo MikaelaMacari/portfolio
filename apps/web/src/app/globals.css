@@ -20,6 +20,30 @@
   --color-foreground: var(--foreground);
 }
 
+@utility bg-grid-fade {
+  background-image:
+    linear-gradient(
+      color-mix(in srgb, var(--color-paper) 10%, transparent) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--color-paper) 10%, transparent) 1px,
+      transparent 1px
+    );
+  background-size: 44px 44px;
+  mask-image: radial-gradient(
+    ellipse 70% 60% at 70% 20%,
+    black,
+    transparent 75%
+  );
+  -webkit-mask-image: radial-gradient(
+    ellipse 70% 60% at 70% 20%,
+    black,
+    transparent 75%
+  );
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;

@@ -1,7 +1,25 @@
 {
-  "Home": {
-    "title": "Mihaela Macari",
-    "subtitle": "Dezvoltator frontend, patru ani de experiență."
+  "Hero": {
+    "status": "DISPONIBILĂ — REMOTE / UE",
+    "location": "CHIȘINĂU, MD · 47.0105° N, 28.8638° E",
+    "clockLabel": "ORA LOCALĂ",
+    "eyebrow": "Frontend Developer — Angular & React",
+    "role": "Dezvoltator frontend specializată pe <b>Angular și React</b>. Mă concentrez în principal pe dezvoltare Angular pe o platformă globală folosită de ONG-uri și consultanți din întreaga lume — alături de un rol React mai mic, în desfășurare, pentru instrumente de operațiuni aviatice la o companie SaaS din aviație.",
+    "copy": "Am început ca inginer biomedical — un background care m-a condus spre lucrul frontend construit în jurul datelor live, nu al conținutului static.",
+    "ctaProjects": "Vezi Proiectele",
+    "ctaContact": "Contactează-mă",
+    "panel": {
+      "title": "Stack Tehnic",
+      "version": "v1.0",
+      "experience": "Experiență",
+      "experienceValue": "4+ ani",
+      "eligibility": "Eligibilitate",
+      "eligibilityValue": "UE — fără sponsorizare",
+      "languages": "Limbi",
+      "languagesValue": "RO · RU · EN",
+      "background": "Studii",
+      "backgroundValue": "Inginerie Biomedicală"
+    }
   },
   "Navbar": {
     "links": {
