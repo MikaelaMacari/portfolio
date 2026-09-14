@@ -42,6 +42,15 @@
       "languagesValue": "Română, Rusă, Engleză"
     }
   },
+  "Contact": {
+    "title": "Hai să lucrăm împreună",
+    "sub": "Deschisă pentru roluri Frontend remote în UE.",
+    "email": "Scrie-mi",
+    "linkedin": "LinkedIn",
+    "linkedinLabel": "Deschide profilul LinkedIn (se deschide într-o filă nouă)",
+    "cv": "Descarcă CV",
+    "cvLabel": "Descarcă CV în format PDF"
+  },
   "Navbar": {
     "links": {
       "projects": "Proiecte",

@@ -42,6 +42,15 @@
       "languagesValue": "Romanian, Russian, English"
     }
   },
+  "Contact": {
+    "title": "Let's work together",
+    "sub": "Open to remote Frontend roles across the EU.",
+    "email": "Email Me",
+    "linkedin": "LinkedIn",
+    "linkedinLabel": "Open LinkedIn profile (opens in a new tab)",
+    "cv": "Download CV",
+    "cvLabel": "Download CV as PDF"
+  },
   "Navbar": {
     "links": {
       "projects": "Projects",

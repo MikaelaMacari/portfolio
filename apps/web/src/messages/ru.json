@@ -42,6 +42,15 @@
       "languagesValue": "Румынский, русский, английский"
     }
   },
+  "Contact": {
+    "title": "Давайте работать вместе",
+    "sub": "Открыта к удалённым Frontend-ролям в ЕС.",
+    "email": "Написать мне",
+    "linkedin": "LinkedIn",
+    "linkedinLabel": "Открыть профиль LinkedIn (в новой вкладке)",
+    "cv": "Скачать резюме",
+    "cvLabel": "Скачать резюме в формате PDF"
+  },
   "Navbar": {
     "links": {
       "projects": "Проекты",

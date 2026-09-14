@@ -1,6 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 
 import { About } from "@/components/about/about";
+import { Contact } from "@/components/contact/contact";
 import { Hero } from "@/components/hero/hero";
 
 import type { Metadata } from "next";
@@ -18,6 +19,7 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
     <main className="flex-1">
       <Hero />
       <About />
+      <Contact />
     </main>
   );
 }
