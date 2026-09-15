@@ -21,6 +21,31 @@
       "backgroundValue": "Biomedical Eng."
     }
   },
+  "FeaturedProjects": {
+    "num": "01 / SELECTED WORK",
+    "title": "Featured Projects",
+    "sub": "Interface patterns from real production work, rebuilt as standalone case studies with open or sample data.",
+    "tabs": {
+      "pharmzenith": "Pharmzenith",
+      "regionIntelligence": "Region Intelligence Platform",
+      "liveAssetTracker": "Live Asset Tracker",
+      "alertsPreferences": "Alerts & Preferences",
+      "mediaPage": "Media Page",
+      "onboardingFlow": "Onboarding Flow"
+    },
+    "wip": {
+      "pill": "WIP",
+      "text": "In development — check back soon."
+    },
+    "cta": {
+      "live": "Live demo →"
+    },
+    "productLabel": "PRODUCT",
+    "pharmzenith": {
+      "title": "Pharmzenith",
+      "description": "A self-built landing page for an inventory-management SaaS product, designed and shipped end-to-end and live in production."
+    }
+  },
   "About": {
     "num": "02 / BACKGROUND",
     "title": "About",

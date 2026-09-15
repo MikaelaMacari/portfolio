@@ -21,6 +21,31 @@
       "backgroundValue": "Inginerie Biomedicală"
     }
   },
+  "FeaturedProjects": {
+    "num": "01 / LUCRĂRI SELECTATE",
+    "title": "Proiecte Principale",
+    "sub": "Modele de interfață din lucrul real în producție, recreate ca studii de caz independente, cu date deschise sau exemplu.",
+    "tabs": {
+      "pharmzenith": "Pharmzenith",
+      "regionIntelligence": "Platformă de Informații Regionale",
+      "liveAssetTracker": "Tracker Live",
+      "alertsPreferences": "Alerte & Preferințe",
+      "mediaPage": "Pagină Media",
+      "onboardingFlow": "Flux Onboarding"
+    },
+    "wip": {
+      "pill": "ÎN LUCRU",
+      "text": "În dezvoltare — revino curând."
+    },
+    "cta": {
+      "live": "Demo live →"
+    },
+    "productLabel": "PRODUS",
+    "pharmzenith": {
+      "title": "Pharmzenith",
+      "description": "O landing page construită independent pentru un produs SaaS de gestionare a inventarului, proiectată și lansată integral de mine, live în producție."
+    }
+  },
   "About": {
     "num": "02 / PARCURS",
     "title": "Despre Mine",

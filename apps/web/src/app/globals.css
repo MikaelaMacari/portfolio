@@ -20,6 +20,15 @@
   --color-foreground: var(--foreground);
 }
 
+@utility scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 @utility bg-grid-fade {
   background-image:
     linear-gradient(
