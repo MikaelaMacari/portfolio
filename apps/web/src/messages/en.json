@@ -27,11 +27,7 @@
     "sub": "Interface patterns from real production work, rebuilt as standalone case studies with open or sample data.",
     "tabs": {
       "pharmzenith": "Pharmzenith",
-      "regionIntelligence": "Region Intelligence Platform",
-      "liveAssetTracker": "Live Asset Tracker",
-      "alertsPreferences": "Alerts & Preferences",
-      "mediaPage": "Media Page",
-      "onboardingFlow": "Onboarding Flow"
+      "regionIntelligence": "Region Intelligence Platform"
     },
     "wip": {
       "pill": "WIP",
@@ -74,6 +70,31 @@
     "linkedinLabel": "Open LinkedIn profile (opens in a new tab)",
     "cv": "Download CV",
     "cvLabel": "Download CV as PDF"
+  },
+  "Timeline": {
+    "num": "03 / EXPERIENCE",
+    "title": "Career Timeline",
+    "present": "Present",
+    "current": "Current",
+    "roles": {
+      "i1": {
+        "role": "Frontend Developer"
+      },
+      "i2": {
+        "role": "Frontend Development Internship"
+      },
+      "i3": {
+        "role": "Frontend Developer"
+      },
+      "i4": {
+        "role": "Frontend Developer (Angular)",
+        "prefix": "Full-time —"
+      },
+      "i5": {
+        "role": "Frontend Developer (React)",
+        "prefix": "Part-time (5h/week) —"
+      }
+    }
   },
   "Footer": {
     "copyright": "© {year} Mihaela Macari",

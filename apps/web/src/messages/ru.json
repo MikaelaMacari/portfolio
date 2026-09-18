@@ -27,11 +27,7 @@
     "sub": "Паттерны интерфейсов из реальной продакшн-работы, воссозданные как самостоятельные кейсы с открытыми данными.",
     "tabs": {
       "pharmzenith": "Pharmzenith",
-      "regionIntelligence": "Платформа региональной аналитики",
-      "liveAssetTracker": "Live-трекер",
-      "alertsPreferences": "Алерты и настройки",
-      "mediaPage": "Медиастраница",
-      "onboardingFlow": "Онбординг"
+      "regionIntelligence": "Платформа региональной аналитики"
     },
     "wip": {
       "pill": "В РАЗРАБОТКЕ",
@@ -74,6 +70,31 @@
     "linkedinLabel": "Открыть профиль LinkedIn (в новой вкладке)",
     "cv": "Скачать резюме",
     "cvLabel": "Скачать резюме в формате PDF"
+  },
+  "Timeline": {
+    "num": "03 / ОПЫТ",
+    "title": "Карьера",
+    "present": "Сейчас",
+    "current": "Текущая",
+    "roles": {
+      "i1": {
+        "role": "Frontend-разработчик"
+      },
+      "i2": {
+        "role": "Стажировка Frontend-разработки"
+      },
+      "i3": {
+        "role": "Frontend-разработчик"
+      },
+      "i4": {
+        "role": "Frontend-разработчик (Angular)",
+        "prefix": "Полная занятость —"
+      },
+      "i5": {
+        "role": "Frontend-разработчик (React)",
+        "prefix": "Частичная занятость (5ч/нед) —"
+      }
+    }
   },
   "Footer": {
     "copyright": "© {year} Mihaela Macari",

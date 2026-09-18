@@ -7,12 +7,7 @@ export type LiveProject = {
 };
 
 export type WipProject = {
-  id:
-    | "regionIntelligence"
-    | "liveAssetTracker"
-    | "alertsPreferences"
-    | "mediaPage"
-    | "onboardingFlow";
+  id: "regionIntelligence";
   kind: "wip";
   number: string;
   stack: string[];
@@ -33,29 +28,5 @@ export const PROJECTS: Project[] = [
     kind: "wip",
     number: "02",
     stack: ["Angular", "TypeScript", "NestJS", "REST"],
-  },
-  {
-    id: "liveAssetTracker",
-    kind: "wip",
-    number: "03",
-    stack: ["React", "React Admin", "React Leaflet"],
-  },
-  {
-    id: "alertsPreferences",
-    kind: "wip",
-    number: "04",
-    stack: ["Angular", "Reactive Forms", "Signals"],
-  },
-  {
-    id: "mediaPage",
-    kind: "wip",
-    number: "05",
-    stack: ["Angular", "RxJS", "Audio API"],
-  },
-  {
-    id: "onboardingFlow",
-    kind: "wip",
-    number: "06",
-    stack: ["Angular", "Video.js"],
   },
 ];

@@ -34,21 +34,29 @@ export async function StackReadoutCard() {
       </div>
 
       <div className="mt-4.5 border-t border-paper/10 pt-3.5">
-        <div className="flex justify-between border-b border-dashed border-paper/10 py-1.75 font-mono text-[0.78rem] text-paper-dim">
+        <div className="flex justify-between border-b border-dashed border-paper/10 py-1.75 font-mono text-[0.78rem] text-paper-dim max-[600px]:flex-col max-[600px]:items-start max-[600px]:gap-1.5">
           <span>{t("experience")}</span>
-          <span className="text-paper">{t("experienceValue")}</span>
+          <span className="text-paper max-[600px]:text-left">
+            {t("experienceValue")}
+          </span>
         </div>
-        <div className="flex justify-between border-b border-dashed border-paper/10 py-1.75 font-mono text-[0.78rem] text-paper-dim">
+        <div className="flex justify-between border-b border-dashed border-paper/10 py-1.75 font-mono text-[0.78rem] text-paper-dim max-[600px]:flex-col max-[600px]:items-start max-[600px]:gap-1.5">
           <span>{t("eligibility")}</span>
-          <span className="text-paper">{t("eligibilityValue")}</span>
+          <span className="text-paper max-[600px]:text-left">
+            {t("eligibilityValue")}
+          </span>
         </div>
-        <div className="flex justify-between border-b border-dashed border-paper/10 py-1.75 font-mono text-[0.78rem] text-paper-dim">
+        <div className="flex justify-between border-b border-dashed border-paper/10 py-1.75 font-mono text-[0.78rem] text-paper-dim max-[600px]:flex-col max-[600px]:items-start max-[600px]:gap-1.5">
           <span>{t("languages")}</span>
-          <span className="text-paper">{t("languagesValue")}</span>
+          <span className="text-paper max-[600px]:text-left">
+            {t("languagesValue")}
+          </span>
         </div>
-        <div className="flex justify-between py-1.75 font-mono text-[0.78rem] text-paper-dim">
+        <div className="flex justify-between py-1.75 font-mono text-[0.78rem] text-paper-dim max-[600px]:flex-col max-[600px]:items-start max-[600px]:gap-1.5">
           <span>{t("background")}</span>
-          <span className="text-paper">{t("backgroundValue")}</span>
+          <span className="text-paper max-[600px]:text-left">
+            {t("backgroundValue")}
+          </span>
         </div>
       </div>
     </div>

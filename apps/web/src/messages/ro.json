@@ -27,11 +27,7 @@
     "sub": "Modele de interfață din lucrul real în producție, recreate ca studii de caz independente, cu date deschise sau exemplu.",
     "tabs": {
       "pharmzenith": "Pharmzenith",
-      "regionIntelligence": "Platformă de Informații Regionale",
-      "liveAssetTracker": "Tracker Live",
-      "alertsPreferences": "Alerte & Preferințe",
-      "mediaPage": "Pagină Media",
-      "onboardingFlow": "Flux Onboarding"
+      "regionIntelligence": "Platformă de Informații Regionale"
     },
     "wip": {
       "pill": "ÎN LUCRU",
@@ -74,6 +70,31 @@
     "linkedinLabel": "Deschide profilul LinkedIn (se deschide într-o filă nouă)",
     "cv": "Descarcă CV",
     "cvLabel": "Descarcă CV în format PDF"
+  },
+  "Timeline": {
+    "num": "03 / EXPERIENȚĂ",
+    "title": "Parcurs Profesional",
+    "present": "Prezent",
+    "current": "Actual",
+    "roles": {
+      "i1": {
+        "role": "Dezvoltator Frontend"
+      },
+      "i2": {
+        "role": "Stagiu Dezvoltare Frontend"
+      },
+      "i3": {
+        "role": "Dezvoltator Frontend"
+      },
+      "i4": {
+        "role": "Dezvoltator Frontend (Angular)",
+        "prefix": "Full-time —"
+      },
+      "i5": {
+        "role": "Dezvoltator Frontend (React)",
+        "prefix": "Part-time (5h/săptămână) —"
+      }
+    }
   },
   "Footer": {
     "copyright": "© {year} Mihaela Macari",
