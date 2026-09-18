@@ -2,7 +2,6 @@ export type LiveProject = {
   id: "pharmzenith";
   kind: "live";
   number: string;
-  glyph: string;
   stack: string[];
   liveUrl: string;
 };
@@ -26,7 +25,6 @@ export const PROJECTS: Project[] = [
     id: "pharmzenith",
     kind: "live",
     number: "01",
-    glyph: "℞",
     stack: ["Angular", "TypeScript"],
     liveUrl: "https://www.pharmzenith.com/",
   },

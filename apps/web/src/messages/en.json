@@ -40,7 +40,6 @@
     "cta": {
       "live": "Live demo →"
     },
-    "productLabel": "PRODUCT",
     "pharmzenith": {
       "title": "Pharmzenith",
       "description": "A self-built landing page for an inventory-management SaaS product, designed and shipped end-to-end and live in production."
@@ -97,5 +96,21 @@
     },
     "menuOpen": "Open menu",
     "menuClose": "Close menu"
+  },
+  "Tour": {
+    "stepLabel": "Step {current} of {total}",
+    "skip": "Skip tour",
+    "back": "← Back",
+    "next": "Next →",
+    "start": "Start tour →",
+    "done": "Done",
+    "steps": {
+      "intro": "Hi, I'm Mihaela 👋 Want a 60-second guided tour of this site?",
+      "statusBar": "Quick status check: I'm open to remote Frontend roles across the EU.",
+      "readoutPanel": "Here's what I actually work with day to day — Angular, React, TypeScript, and the tools around them.",
+      "tabbar": "This is where you'll find my work — click between the tabs to explore each project.",
+      "langSwitch": "The whole site is available in three languages — try switching.",
+      "contactPanel": "That's the tour. Grab my CV here, or scroll down to get in touch. Thanks for stopping by!"
+    }
   }
 }

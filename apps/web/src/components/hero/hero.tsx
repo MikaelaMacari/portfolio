@@ -16,8 +16,11 @@ export async function Hero() {
         className="bg-grid-fade pointer-events-none absolute inset-0"
       />
 
-      <div className="relative mx-auto max-w-[1120px] px-7">
-        <div className="mb-11 flex w-fit flex-wrap items-center gap-5.5 rounded-lg border border-paper/18 bg-paper/3 px-4 py-2.5 font-mono text-[0.76rem] tracking-[0.02em] text-paper-dim">
+      <div className="relative mx-auto max-w-280 px-7">
+        <div
+          id="status-bar"
+          className="mb-11 flex w-fit flex-wrap items-center gap-5.5 rounded-lg border border-paper/18 bg-paper/3 px-4 py-2.5 font-mono text-[0.76rem] tracking-[0.02em] text-paper-dim"
+        >
           <span>
             <span
               className="mr-2 inline-block h-2 w-2 rounded-full bg-teal motion-safe:animate-status-pulse"

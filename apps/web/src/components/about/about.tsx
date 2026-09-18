@@ -15,8 +15,8 @@ export async function About() {
   const t = await getTranslations("About");
 
   return (
-    <section id="about" className="scroll-mt-17 pt-22">
-      <div className="mx-auto max-w-[1120px] px-7">
+    <section id="about" className="scroll-mt-17 pt-22 pb-17">
+      <div className="mx-auto max-w-280 px-7">
         <div className="mb-11">
           <span className="mb-2.5 block font-mono text-[0.8rem] tracking-[0.08em] text-amber">
             {t("num")}

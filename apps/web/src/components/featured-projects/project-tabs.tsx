@@ -73,6 +73,7 @@ export function ProjectTabs({ panels }: ProjectTabsProps) {
   return (
     <div>
       <div
+        id="tabbar"
         role="tablist"
         className="scrollbar-hide mb-9 flex flex-nowrap gap-1.5 overflow-x-auto border-b border-paper/18"
       >

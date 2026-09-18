@@ -16,7 +16,10 @@ export async function StackReadoutCard() {
   const t = await getTranslations("Hero.panel");
 
   return (
-    <div className="rounded-[10px] border border-paper/18 bg-ink-2 p-5.5">
+    <div
+      id="readout-panel"
+      className="rounded-[10px] border border-paper/18 bg-ink-2 p-5.5"
+    >
       <div className="mb-4 flex justify-between font-mono text-[0.7rem] tracking-[0.08em] text-muted uppercase">
         <span>{t("title")}</span>
         <span>{t("version")}</span>

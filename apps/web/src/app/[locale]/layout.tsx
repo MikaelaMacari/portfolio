@@ -5,6 +5,7 @@ import { getMessages, setRequestLocale } from "next-intl/server";
 
 import { Footer } from "@/components/footer/footer";
 import { Navbar } from "@/components/navbar/navbar";
+import { TourProvider } from "@/components/tour/tour-provider";
 import { routing } from "@/i18n/routing";
 
 import type { Metadata } from "next";
@@ -42,9 +43,11 @@ export default async function LocaleLayout({
     >
       <body className="flex min-h-full flex-col" suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
-          <Navbar />
-          {children}
-          <Footer />
+          <TourProvider>
+            <Navbar />
+            {children}
+            <Footer />
+          </TourProvider>
         </NextIntlClientProvider>
       </body>
     </html>

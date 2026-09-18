@@ -40,7 +40,6 @@
     "cta": {
       "live": "Demo live →"
     },
-    "productLabel": "PRODUS",
     "pharmzenith": {
       "title": "Pharmzenith",
       "description": "O landing page construită independent pentru un produs SaaS de gestionare a inventarului, proiectată și lansată integral de mine, live în producție."
@@ -97,5 +96,21 @@
     },
     "menuOpen": "Deschide meniul",
     "menuClose": "Închide meniul"
+  },
+  "Tour": {
+    "stepLabel": "Pasul {current} din {total}",
+    "skip": "Sari peste tur",
+    "back": "← Înapoi",
+    "next": "Înainte →",
+    "start": "Începe turul →",
+    "done": "Gata",
+    "steps": {
+      "intro": "Bună, sunt Mihaela 👋 Vrei un tur ghidat de 60 de secunde al site-ului?",
+      "statusBar": "Verificare rapidă: sunt disponibilă pentru roluri Frontend remote în UE.",
+      "readoutPanel": "Iată cu ce lucrez de fapt zi de zi — Angular, React, TypeScript și uneltele din jurul lor.",
+      "tabbar": "Aici găsești lucrările mele — apasă între taburi pentru a explora fiecare proiect.",
+      "langSwitch": "Întregul site este disponibil în trei limbi — încearcă să schimbi.",
+      "contactPanel": "Acesta este turul. Ia-mi CV-ul de aici sau derulează în jos pentru a lua legătura. Mulțumesc că ai trecut pe aici!"
+    }
   }
 }

@@ -12,8 +12,11 @@ export async function Contact() {
       id="contact"
       className="scroll-mt-17 border-y border-paper/10 bg-ink-2 py-22"
     >
-      <div className="mx-auto max-w-[1120px] px-7">
-        <div className="flex flex-wrap items-center justify-between gap-7 rounded-[10px] border border-paper/18 p-7 sm:p-12">
+      <div className="mx-auto max-w-280 px-7">
+        <div
+          id="contact-panel"
+          className="flex flex-wrap items-center justify-between gap-7 rounded-[10px] border border-paper/18 p-7 sm:p-12"
+        >
           <div>
             <h2 className="mb-2.5 font-display text-[clamp(1.4rem,6vw,1.8rem)] font-semibold">
               {t("title")}

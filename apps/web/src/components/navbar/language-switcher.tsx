@@ -24,7 +24,7 @@ export function LanguageSwitcher() {
   }
 
   return (
-    <>
+    <div id="lang-switch">
       <div ref={dropdownRef} className="relative sm:hidden">
         <button
           type="button"
@@ -93,6 +93,6 @@ export function LanguageSwitcher() {
           );
         })}
       </div>
-    </>
+    </div>
   );
 }
