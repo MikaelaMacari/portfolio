@@ -5,6 +5,8 @@ packages:
 # Native postinstall scripts we explicitly trust (pnpm 11 blocks the rest).
 onlyBuiltDependencies:
   - unrs-resolver
+  - "@swc/core"
+  - "@parcel/watcher"
 
 catalog:
   # Pinned to 5.9 (not 7.0): typescript-eslint hard-refuses TS >= 7 today.
