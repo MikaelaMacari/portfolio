@@ -1,32 +1,15 @@
-import { Space_Grotesk, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
+import { ibmPlexMono, ibmPlexSans, spaceGrotesk } from "@repo/tokens/fonts";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 
+import { Footer } from "@/components/footer/footer";
+import { Navbar } from "@/components/navbar/navbar";
+import { TourProvider } from "@/components/tour/tour-provider";
 import { routing } from "@/i18n/routing";
 
 import type { Metadata } from "next";
 import "@/app/globals.css";
-
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-space-grotesk",
-  subsets: ["latin"],
-  display: "swap",
-});
-
-const ibmPlexSans = IBM_Plex_Sans({
-  variable: "--font-ibm-plex-sans",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-});
-
-const ibmPlexMono = IBM_Plex_Mono({
-  variable: "--font-ibm-plex-mono",
-  subsets: ["latin"],
-  weight: ["400", "500"],
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: {
@@ -60,7 +43,11 @@ export default async function LocaleLayout({
     >
       <body className="flex min-h-full flex-col" suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <TourProvider>
+            <Navbar />
+            {children}
+            <Footer />
+          </TourProvider>
         </NextIntlClientProvider>
       </body>
     </html>

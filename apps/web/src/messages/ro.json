@@ -1,6 +1,137 @@
 {
-  "Home": {
-    "title": "Mihaela Macari",
-    "subtitle": "Dezvoltator frontend, patru ani de experiență."
+  "Hero": {
+    "status": "DISPONIBILĂ — REMOTE / UE",
+    "location": "CHIȘINĂU, MD · 47.0105° N, 28.8638° E",
+    "clockLabel": "ORA LOCALĂ",
+    "eyebrow": "Frontend Developer — Angular & React",
+    "role": "Dezvoltator frontend specializată pe <b>Angular și React</b>. Mă concentrez în principal pe dezvoltare Angular pe o platformă globală folosită de ONG-uri și consultanți din întreaga lume — alături de un rol React mai mic, în desfășurare, pentru instrumente de operațiuni aviatice la o companie SaaS din aviație.",
+    "copy": "Am început ca inginer biomedical — un background care m-a condus spre lucrul frontend construit în jurul datelor live, nu al conținutului static.",
+    "ctaProjects": "Vezi Proiectele",
+    "ctaContact": "Contactează-mă",
+    "panel": {
+      "title": "Stack Tehnic",
+      "version": "v1.0",
+      "experience": "Experiență",
+      "experienceValue": "4+ ani",
+      "eligibility": "Eligibilitate",
+      "eligibilityValue": "UE — fără sponsorizare",
+      "languages": "Limbi",
+      "languagesValue": "RO · RU · EN",
+      "background": "Studii",
+      "backgroundValue": "Inginerie Biomedicală"
+    }
+  },
+  "FeaturedProjects": {
+    "num": "01 / LUCRĂRI SELECTATE",
+    "title": "Proiecte Principale",
+    "sub": "Modele de interfață din lucrul real în producție, recreate ca studii de caz independente, cu date deschise sau exemplu.",
+    "tabs": {
+      "pharmzenith": "Pharmzenith",
+      "regionIntelligence": "Platformă de Informații Regionale"
+    },
+    "wip": {
+      "pill": "ÎN LUCRU",
+      "text": "În dezvoltare — revino curând."
+    },
+    "cta": {
+      "live": "Demo live →"
+    },
+    "pharmzenith": {
+      "title": "Pharmzenith",
+      "description": "O landing page construită independent pentru un produs SaaS de gestionare a inventarului, proiectată și lansată integral de mine, live în producție."
+    }
+  },
+  "About": {
+    "num": "02 / PARCURS",
+    "title": "Despre Mine",
+    "p1": "Am început în inginerie biomedicală — un master petrecut gândindu-mă la precizie, toleranțe și instrumente. M-am mutat în dezvoltare frontend pentru că am vrut să construiesc eu însămi instrumentele.",
+    "p2": "Din 2022 lucrez în platforme SaaS, B2B și platforme bazate pe date, în Angular și React. Mă concentrez în principal pe dezvoltare Angular pe o platformă de date la scară largă folosită de ONG-uri și consultanți din întreaga lume, alături de un rol React mai mic, în desfășurare, pentru instrumente de monitorizare live în operațiuni aviatice.",
+    "p3": "Bazată în Chișinău, Moldova — cetățean UE, eligibilă integral pentru muncă remote în UE, fără sponsorizare.",
+    "rows": {
+      "focus": "Focus Actual",
+      "focusValue": "Angular & React, interfețe cu date complexe",
+      "experience": "Experiență",
+      "experienceValue": "4+ ani",
+      "education": "Studii",
+      "educationValue": "Master Inginerie Biomedicală",
+      "location": "Locație",
+      "locationValue": "Chișinău, Moldova",
+      "eligibility": "Eligibilitate",
+      "eligibilityValue": "Remote UE — fără sponsorizare",
+      "languages": "Limbi",
+      "languagesValue": "Română, Rusă, Engleză"
+    }
+  },
+  "Contact": {
+    "title": "Hai să lucrăm împreună",
+    "sub": "Deschisă pentru roluri Frontend remote în UE.",
+    "email": "Scrie-mi",
+    "linkedin": "LinkedIn",
+    "linkedinLabel": "Deschide profilul LinkedIn (se deschide într-o filă nouă)",
+    "cv": "Descarcă CV",
+    "cvLabel": "Descarcă CV în format PDF"
+  },
+  "Timeline": {
+    "num": "03 / EXPERIENȚĂ",
+    "title": "Parcurs Profesional",
+    "present": "Prezent",
+    "current": "Actual",
+    "roles": {
+      "i1": {
+        "role": "Dezvoltator Frontend"
+      },
+      "i2": {
+        "role": "Stagiu Dezvoltare Frontend"
+      },
+      "i3": {
+        "role": "Dezvoltator Frontend"
+      },
+      "i4": {
+        "role": "Dezvoltator Frontend (Angular)",
+        "prefix": "Full-time —"
+      },
+      "i5": {
+        "role": "Dezvoltator Frontend (React)",
+        "prefix": "Part-time (5h/săptămână) —"
+      }
+    }
+  },
+  "Footer": {
+    "copyright": "© {year} Mihaela Macari",
+    "built": "Construit cu gândire Angular & React, livrat cu Next.js"
+  },
+  "Navbar": {
+    "links": {
+      "projects": "Proiecte",
+      "about": "Despre",
+      "contact": "Contact"
+    },
+    "tour": "Ghid rapid",
+    "cv": "CV",
+    "cvDownloadLabel": "Descarcă CV în format PDF",
+    "languageLabel": "Alege limba",
+    "locales": {
+      "en": "Engleză",
+      "ro": "Română",
+      "ru": "Rusă"
+    },
+    "menuOpen": "Deschide meniul",
+    "menuClose": "Închide meniul"
+  },
+  "Tour": {
+    "stepLabel": "Pasul {current} din {total}",
+    "skip": "Sari peste tur",
+    "back": "← Înapoi",
+    "next": "Înainte →",
+    "start": "Începe turul →",
+    "done": "Gata",
+    "steps": {
+      "intro": "Bună, sunt Mihaela 👋 Vrei un tur ghidat de 60 de secunde al site-ului?",
+      "statusBar": "Verificare rapidă: sunt disponibilă pentru roluri Frontend remote în UE.",
+      "readoutPanel": "Iată cu ce lucrez de fapt zi de zi — Angular, React, TypeScript și uneltele din jurul lor.",
+      "tabbar": "Aici găsești lucrările mele — apasă între taburi pentru a explora fiecare proiect.",
+      "langSwitch": "Întregul site este disponibil în trei limbi — încearcă să schimbi.",
+      "contactPanel": "Acesta este turul. Ia-mi CV-ul de aici sau derulează în jos pentru a lua legătura. Mulțumesc că ai trecut pe aici!"
+    }
   }
 }

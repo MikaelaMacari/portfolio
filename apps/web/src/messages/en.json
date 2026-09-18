@@ -1,6 +1,137 @@
 {
-  "Home": {
-    "title": "Mihaela Macari",
-    "subtitle": "Frontend developer, four years' experience."
+  "Hero": {
+    "status": "AVAILABLE — REMOTE / EU",
+    "location": "CHIȘINĂU, MD · 47.0105° N, 28.8638° E",
+    "clockLabel": "LOCAL",
+    "eyebrow": "Frontend Developer — Angular & React",
+    "role": "Frontend developer specializing in <b>Angular and React</b>. My main focus is Angular development on a global platform used by NGOs and consultants worldwide — alongside a smaller, ongoing React role building aircraft-operations tooling for an aviation SaaS company.",
+    "copy": "Originally trained as a biomedical engineer — a background that led me toward frontend work built around live, high-stakes data rather than static content.",
+    "ctaProjects": "View Projects",
+    "ctaContact": "Get in Touch",
+    "panel": {
+      "title": "Stack Readout",
+      "version": "v1.0",
+      "experience": "Experience",
+      "experienceValue": "4+ yrs",
+      "eligibility": "Work Eligibility",
+      "eligibilityValue": "EU — no sponsorship",
+      "languages": "Languages",
+      "languagesValue": "RO · RU · EN",
+      "background": "Background",
+      "backgroundValue": "Biomedical Eng."
+    }
+  },
+  "FeaturedProjects": {
+    "num": "01 / SELECTED WORK",
+    "title": "Featured Projects",
+    "sub": "Interface patterns from real production work, rebuilt as standalone case studies with open or sample data.",
+    "tabs": {
+      "pharmzenith": "Pharmzenith",
+      "regionIntelligence": "Region Intelligence Platform"
+    },
+    "wip": {
+      "pill": "WIP",
+      "text": "In development — check back soon."
+    },
+    "cta": {
+      "live": "Live demo →"
+    },
+    "pharmzenith": {
+      "title": "Pharmzenith",
+      "description": "A self-built landing page for an inventory-management SaaS product, designed and shipped end-to-end and live in production."
+    }
+  },
+  "About": {
+    "num": "02 / BACKGROUND",
+    "title": "About",
+    "p1": "I started in biomedical engineering — a master's degree spent thinking about precision, tolerances and instruments. I moved into frontend development because I wanted to build the instruments myself.",
+    "p2": "Since 2022 I've worked across SaaS, B2B and data-driven platforms in Angular and React. My primary focus has been Angular development on a large-scale data platform used by NGOs and consultants worldwide, alongside a smaller, ongoing React role building live monitoring tools for aviation operations.",
+    "p3": "Based in Chișinău, Moldova — EU citizen, fully eligible to work remotely across the EU without sponsorship.",
+    "rows": {
+      "focus": "Current Focus",
+      "focusValue": "Angular & React, data-heavy UIs",
+      "experience": "Experience",
+      "experienceValue": "4+ years",
+      "education": "Education",
+      "educationValue": "MSc Biomedical Engineering",
+      "location": "Location",
+      "locationValue": "Chișinău, Moldova",
+      "eligibility": "Eligibility",
+      "eligibilityValue": "EU remote — no sponsorship needed",
+      "languages": "Languages",
+      "languagesValue": "Romanian, Russian, English"
+    }
+  },
+  "Contact": {
+    "title": "Let's work together",
+    "sub": "Open to remote Frontend roles across the EU.",
+    "email": "Email Me",
+    "linkedin": "LinkedIn",
+    "linkedinLabel": "Open LinkedIn profile (opens in a new tab)",
+    "cv": "Download CV",
+    "cvLabel": "Download CV as PDF"
+  },
+  "Timeline": {
+    "num": "03 / EXPERIENCE",
+    "title": "Career Timeline",
+    "present": "Present",
+    "current": "Current",
+    "roles": {
+      "i1": {
+        "role": "Frontend Developer"
+      },
+      "i2": {
+        "role": "Frontend Development Internship"
+      },
+      "i3": {
+        "role": "Frontend Developer"
+      },
+      "i4": {
+        "role": "Frontend Developer (Angular)",
+        "prefix": "Full-time —"
+      },
+      "i5": {
+        "role": "Frontend Developer (React)",
+        "prefix": "Part-time (5h/week) —"
+      }
+    }
+  },
+  "Footer": {
+    "copyright": "© {year} Mihaela Macari",
+    "built": "Built with Angular & React thinking, shipped with Next.js"
+  },
+  "Navbar": {
+    "links": {
+      "projects": "Projects",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "tour": "Take a tour",
+    "cv": "CV",
+    "cvDownloadLabel": "Download CV as PDF",
+    "languageLabel": "Choose language",
+    "locales": {
+      "en": "English",
+      "ro": "Romanian",
+      "ru": "Russian"
+    },
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
+  },
+  "Tour": {
+    "stepLabel": "Step {current} of {total}",
+    "skip": "Skip tour",
+    "back": "← Back",
+    "next": "Next →",
+    "start": "Start tour →",
+    "done": "Done",
+    "steps": {
+      "intro": "Hi, I'm Mihaela 👋 Want a 60-second guided tour of this site?",
+      "statusBar": "Quick status check: I'm open to remote Frontend roles across the EU.",
+      "readoutPanel": "Here's what I actually work with day to day — Angular, React, TypeScript, and the tools around them.",
+      "tabbar": "This is where you'll find my work — click between the tabs to explore each project.",
+      "langSwitch": "The whole site is available in three languages — try switching.",
+      "contactPanel": "That's the tour. Grab my CV here, or scroll down to get in touch. Thanks for stopping by!"
+    }
   }
 }
