@@ -89,6 +89,7 @@ export function TourProvider({ children }: { children: ReactNode }) {
   const waitForScrollEnd = useCallback(
     (onSettled: () => void) => {
       let lastY = window.scrollY;
+      let lastVH = window.visualViewport?.height ?? window.innerHeight;
       let stableFrames = 0;
       let framesElapsed = 0;
       let settled = false;
@@ -103,11 +104,13 @@ export function TourProvider({ children }: { children: ReactNode }) {
       function check() {
         framesElapsed += 1;
         const currentY = window.scrollY;
-        if (currentY === lastY) {
+        const currentVH = window.visualViewport?.height ?? window.innerHeight;
+        if (currentY === lastY && currentVH === lastVH) {
           stableFrames += 1;
         } else {
           stableFrames = 0;
           lastY = currentY;
+          lastVH = currentVH;
         }
 
         if (
@@ -215,9 +218,11 @@ export function TourProvider({ children }: { children: ReactNode }) {
 
     document.addEventListener("keydown", handleKeyDown);
     window.addEventListener("resize", handleResize);
+    window.visualViewport?.addEventListener("resize", handleResize);
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
       window.removeEventListener("resize", handleResize);
+      window.visualViewport?.removeEventListener("resize", handleResize);
     };
   }, [isActive, endTour, goToStep]);
 
