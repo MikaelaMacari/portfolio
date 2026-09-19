@@ -12,10 +12,7 @@ export async function CareerTimeline() {
   const tContact = await getTranslations("Contact");
 
   return (
-    <section
-      id="contact"
-      className="scroll-mt-17 border-y border-paper/10 bg-ink-2 py-22"
-    >
+    <section className="border-y border-paper/10 bg-ink-2 py-22">
       <div className="mx-auto max-w-280 px-7">
         <div className="mb-11">
           <span className="mb-2.5 block font-mono text-[0.8rem] tracking-[0.08em] text-amber">
@@ -34,8 +31,8 @@ export async function CareerTimeline() {
           </ol>
 
           <div
-            id="contact-panel"
-            className="flex flex-col items-start gap-5.5 rounded-[10px] border border-paper/18 p-7 sm:p-8"
+            id="contact"
+            className="scroll-mt-17 flex flex-col items-start gap-5.5 rounded-[10px] border border-paper/18 p-7 sm:p-8"
           >
             <div>
               <h3 className="mb-2.5 font-display text-[clamp(1.4rem,6vw,1.8rem)] font-semibold">

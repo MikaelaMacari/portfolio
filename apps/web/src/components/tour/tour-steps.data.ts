@@ -31,7 +31,7 @@ export const TOUR_STEPS: TourStep[] = [
   },
   {
     id: "contactPanel",
-    selector: "#contact-panel",
+    selector: "#contact",
     textKey: "contactPanel",
     placement: "top",
     nextLabelKey: "done",

@@ -9,7 +9,7 @@ export async function Hero() {
   return (
     <section
       id="top"
-      className="relative overflow-hidden border-b border-paper/10 pt-12 pb-9.5 sm:pt-24 sm:pb-19"
+      className="relative scroll-mt-17 overflow-hidden border-b border-paper/10 pt-12 pb-9.5 sm:pt-24 sm:pb-19"
     >
       <div
         aria-hidden
